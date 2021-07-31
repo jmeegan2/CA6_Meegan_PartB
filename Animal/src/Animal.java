@@ -10,7 +10,7 @@ class RoboHunter implements Predator {
     //Override the method in Predator Interface
     //Hunt is always successful for RoboHunters
     public boolean hunt(Prey prey) {
-        System.out.println(this.toString() + " is hunting the" + prey.toString());
+        System.out.println(this.toString() + " is hunting the " + prey.toString());
         return true;
     }
 
